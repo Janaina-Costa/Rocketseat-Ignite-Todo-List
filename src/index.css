@@ -1,0 +1,31 @@
+:root {
+  --product-blue-dark:#1E6F9F;
+  --product-blue:#4EA8DE;
+  --product-purple-dark:#5E60CE;
+  --product-purple:#8284FA;
+  --base-gray-700:#0D0D0D;
+  --base-gray-600:#1A1A1A;
+  --base-gray-500:#262626;
+  --base-gray-400:#333333;
+  --base-gray-300:#808080;
+  --base-gray-200:#D9D9D9;
+  --base-gray-100:#F2F2F2;
+  --feedback-danger:#E25858;
+
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--base-gray-600);
+}
+

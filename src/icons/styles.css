@@ -1,0 +1,23 @@
+.checkTrue{
+  fill: var(--product-purple-dark);
+  transition: fill .5s ease-in-out;
+}
+.checkTrue:hover{
+  fill: var(--product-purple);
+}
+
+.checkFalse{
+  fill: var(--product-blue);
+  transition: fill .5s ease-in-out;
+}
+.checkFalse:hover{
+  fill: var(--product-blue-dark);
+}
+
+.trash{
+  fill: gray;
+  transition: fill .5s ease-in-out;
+}
+.trash:hover{
+  fill: var( --feedback-danger);
+}

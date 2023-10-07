@@ -1,0 +1,32 @@
+.container{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  border-top:1px solid var(--base-gray-400) ;
+  padding:4rem 1.5rem;
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.first_paragraph, .second_paragraph{
+  margin: 0;
+  color: var(--base-gray-300);
+  font-weight: 700;
+}
+.second_paragraph{
+  font-weight: 400;
+}
